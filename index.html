@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Prince | Links</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial;
+      text-align: center;
+      color: white;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+    }
+
+    .container {
+      margin-top: 80px;
+    }
+
+    .card {
+      width: 85%;
+      margin: auto;
+      padding: 20px;
+      border-radius: 15px;
+      backdrop-filter: blur(10px);
+      background: rgba(255,255,255,0.1);
+      box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    }
+
+    h1 {
+      margin: 10px;
+    }
+
+    p {
+      opacity: 0.9;
+    }
+
+    .btn {
+      display: block;
+      width: 90%;
+      margin: 12px auto;
+      padding: 14px;
+      background: white;
+      color: black;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: bold;
+      transition: 0.3s;
+      box-shadow: 0 0 10px rgba(255,255,255,0.5);
+    }
+
+    .btn:hover {
+      transform: scale(1.08);
+      box-shadow: 0 0 25px white;
+      background: #f1f1f1;
+    }
+
+    .main-btn {
+      background: #ff004f;
+      color: white;
+      animation: glow 1s infinite alternate;
+    }
+
+    @keyframes glow {
+      from { box-shadow: 0 0 10px #ff004f; }
+      to { box-shadow: 0 0 25px #ff004f; }
+    }
+
+    .footer {
+      margin-top: 30px;
+      font-size: 12px;
+      opacity: 0.7;
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="container">
+  <div class="card">
+
+    <h1>🔥 Prince Tiwari</h1>
+    <p>💻  | 🚀 Grow karo mere sath</p>
+
+    <a class="btn main-btn" onclick="followNow()">
+      🚀 FOLLOW NOW (CLICK HERE)
+    </a>
+
+    <a class="btn" href="https://instagram.com/PRINCE_TIWARI_0315" target="_blank">
+      📸 Instagram Profile
+    </a>
+
+    <a class="btn" href="https://instagram.com/PRINCE_TIWARI_0315" target="_blank">
+      📩 DM me on Instagram
+    </a>
+
+    <div class="footer">
+      Made with ❤️ by Prince
+    </div>
+
+  </div>
+</div>
+
+<script>
+  function followNow(){
+    alert("Follow karne ke liye thanks 😎");
+    window.location.href="https://instagram.com/PRINCE_TIWARI_0315";
+  }
+</script>
+
+</body>
+</html>
